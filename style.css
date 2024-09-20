@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    text-align: center;
+    background-color: #f7e4e4;
+}
+
+header {
+    background-color: #BA6B6C;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.promocje, .kontakt {
+    background-color: #EF9A9A;
+    width: 20%;
+    padding: 20px;
+}
+
+.promocje h2, .kontakt h2 {
+    color: #7a3031;
+}
+
+.promocje table {
+    width: 100%;
+    border: 1px solid Maroon;
+    margin-top: 20px;
+}
+
+.promocje table td {
+    padding: 5px;
+}
+
+.zdjecia {
+    width: 60%;
+    background-color: MistyRose;
+    padding: 20px;
+}
+
+.zdjecia h2 {
+    color: #7a3031;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.historia {
+    background-color: #f7e4e4;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+.historia h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.historia ol {
+    list-style: upper-roman;
+    margin-left: 40px;
+}
+
+footer {
+    background-color: #BA6B6C;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
