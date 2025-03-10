@@ -67,7 +67,7 @@ mysqli_close($db);
         </ol>
     </section>
     <footer>
-        <p>Stronę wykonał: 123456789112</p>
+        <p>Stronę wykonał: Kajetan Wujke</p>
     </footer>
 </body>
 </html>
